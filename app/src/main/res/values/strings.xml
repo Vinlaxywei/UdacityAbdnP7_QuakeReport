@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">地震报告</string>
+    <string name="nearthe">Near the</string>
+    <string name="action_setting">设置</string>
+    <string name="emptyview_network_incorrect">当前网络状态不好，请检查网络状态</string>
+
+    <string name="settings_min_magnitude_label">当前显示最小震级</string>
+    <string name="settings_min_magnitude_key">min_magnitude</string>
+    <string name="settings_min_magnitude_default">3</string>
+
+    <string name="setting_sort_label">列表排列顺序</string>
+    <string name="setting_order_by_key">sort</string>
+    <string name="setting_order_by_default">time</string>
+    <string name="setting_order_by_magnitude">magnitude</string>
+    <string name="setting_order_by_time_label">按时间</string>
+    <string name="setting_order_by_magnitude_label">按震级</string>
+    <string-array name="setting_sort_label">
+        <item>@string/setting_order_by_time_label</item>
+        <item>@string/setting_order_by_magnitude_label</item>
+    </string-array>
+    <string-array name="setting_sort_values">
+        <item>@string/setting_order_by_default</item>
+        <item>@string/setting_order_by_magnitude</item>
+    </string-array>
+
+
+
+</resources>

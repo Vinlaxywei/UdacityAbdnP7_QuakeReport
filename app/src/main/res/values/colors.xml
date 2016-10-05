@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#10CAC9</color>
+
+    <!-- 震级介于 0 and 2 -->
+    <color name="magnitude1">#4A7BA7</color>
+
+    <!-- 震级介于 2 and 3 -->
+    <color name="magnitude2">#04B4B3</color>
+
+    <!-- 震级介于 3 and 4 -->
+    <color name="magnitude3">#10CAC9</color>
+
+    <!-- 震级介于 4 and 5 -->
+    <color name="magnitude4">#F5A623</color>
+
+    <!-- 震级介于 5 and 6 -->
+    <color name="magnitude5">#FF7D50</color>
+
+    <!-- 震级介于 6 and 7 -->
+    <color name="magnitude6">#FC6644</color>
+
+    <!-- 震级介于 7 and 8 -->
+    <color name="magnitude7">#E75F40</color>
+
+    <!-- 震级介于 8 and 9 -->
+    <color name="magnitude8">#E13A20</color>
+
+    <!-- 震级介于 9 and 10 -->
+    <color name="magnitude9">#D93218</color>
+
+    <!-- 震级 == 10 -->
+    <color name="magnitude10plus">#C03823</color>
+</resources>
