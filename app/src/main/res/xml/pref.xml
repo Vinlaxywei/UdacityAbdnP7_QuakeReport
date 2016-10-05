@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/settings_title">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_setting">
 
     <EditTextPreference
         android:defaultValue="@string/settings_min_magnitude_default"
@@ -9,5 +8,12 @@
         android:key="@string/settings_min_magnitude_key"
         android:selectAllOnFocus="true"
         android:title="@string/settings_min_magnitude_label" />
+
+    <ListPreference
+        android:entries="@array/setting_sort_label"
+        android:entryValues="@array/setting_sort_values"
+        android:defaultValue="@string/setting_order_by_default"
+        android:key="@string/setting_order_by_key"
+        android:title="@string/setting_sort_label" />
 
 </PreferenceScreen>

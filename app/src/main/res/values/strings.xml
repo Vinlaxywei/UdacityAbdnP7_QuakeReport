@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">地震报告</string>
+    <string name="app_name">地震检测报告</string>
     <string name="nearthe">Near the</string>
     <string name="action_setting">设置</string>
     <string name="emptyview_network_incorrect">当前网络状态不好，请检查网络状态</string>
